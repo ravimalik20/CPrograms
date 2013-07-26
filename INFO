@@ -1,0 +1,9 @@
+How to tackle binary executable files from being tracked by git:
+
+1. Generate all the object code files ending with .o 
+2. Optionally place the object code files in the bin/ folder
+
+Information about the Directory Structure of the project:
+
+1. Book: C Programing A Modern Approach: Folder which contains direct examples from the book C Programing A Modern Approach by K.N.King.
+2. bin/: An optional bin folder which contains the binary executable object files.

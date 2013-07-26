@@ -21,7 +21,3 @@ I hope that my collection will benefit budding programmers as it is definitely h
 Your Fellow,
 Ravi Malik
 A wannabe Programer
-
-How to tackle binary executable files from being tracked by git:
-1. Generate all the object code files ending with .o 
-2. Optionally place the object code files in the bin/ folder
