@@ -1,12 +1,12 @@
-/*
+/****************************************************************************************************************
 *	Trap while Comparing signed and unsigned number.
 *	
 *	When the numbers are type converted by the compiler, they are converted to the nearest fitting type.
-	short -> unsigned short -> int -> unsigned int -> long -> unsigned long
-	Hence when we compare an unsigned number with a signed number, a situation can occur which can trap us.
-
-	 There is just one thing to remember that, try to avoid using unsigned numbers as often as possible.
-*/
+*	short -> unsigned short -> int -> unsigned int -> long -> unsigned long
+*	Hence when we compare an unsigned number with a signed number, a situation can occur which can trap us.
+*
+*	 There is just one thing to remember that, try to avoid using unsigned numbers as often as possible.
+*****************************************************************************************************************/
 
 #include<stdio.h>
 
