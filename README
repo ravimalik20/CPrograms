@@ -1,4 +1,4 @@
-Programs encounered while learning C
+Programs encountered while learning C
 
 Hello friends,
 
@@ -15,6 +15,11 @@ WARNING:
 The programs that i have added might look very obvious and simple to some. I add them because these were the concepts which i previously had difficulty in understanding or are very intreaguing. 
 
 Keep in mind that every professional starts as a beginer and once we do become profesionals we usually forget how it used to feel like a beginner.
+
+LICENSE INFO:
+
+1. All the source code present in the root diretory is LICENSED under the GNU GPLv2.
+2. However, the source code placed in the directories are directly taken from the Book mentioned in the directory. And i hereby DECLARE that i have no copyright over these code and not licensing it under any license. I do thank the authors of the book for providing good example programs. 
 
 I hope that my collection will benefit budding programmers as it is definitely helping me.
 
