@@ -1,0 +1,6 @@
+REFERENCES TO THE SOURCE CODE USED IN THIS DIRECTORY
+
+Programs contained in this directory are taken from the Book : C Programing A Modern Approach by K.N.King.
+
+Book Examples/
+	1. 1_celsius.c: Chapter 2 -> Page.24 -> celsius.c
