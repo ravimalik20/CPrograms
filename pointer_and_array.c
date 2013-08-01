@@ -17,6 +17,7 @@
 
 void print_array(int [],int);
 void print_array_2(int *,int);
+void slice_array(int [],int ,int ,int );
 
 int main()
 {	int arr[N]={0,1,2,3,4,5,6,7,8,9},a=10;
@@ -36,6 +37,8 @@ int main()
 	r= (int []){1,2,3,[9]=10};
 
 	print_array(r,10);
+
+	slice_array(arr,N,2,6);
 
 	return 0;
 }
@@ -59,3 +62,10 @@ void print_array_2(int *arr,int n)
 	}
 	printf("\n");
 }
+
+// Print the provided slice of the array
+void slice_array(int arr[],int n,int start,int end)
+{	print_array(arr+start,end-start);
+}
+
+
