@@ -1,5 +1,15 @@
 /***********************************************************************
 *	Understanding how to deal with parametrised macro definitions.
+*	
+*	Unsing Macro is advantageous because:
+*		Programs may run slightly faster, due to no overhead of function calls.
+*		The inputs to macros are generic.
+*
+*	Disadvantages of macros are:
+*		Compiled code will often be lag=rger.
+*		No type checking for input arguments
+*		Not possible to have pointer to a macro
+*		macro may process an argument more than once, and is prominent when an argument has a side effect.
 ************************************************************************/
 
 #include<stdio.h>
