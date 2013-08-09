@@ -51,4 +51,9 @@ int main(void)
 	a+b=30;
 	// This is because lhs of = should be an lvalue, not an expression or a literal.
 	*/
+	/*
+	b=20+a=10;
+	// This is also invalid because, when a=10 is evaluated, it considers it as 20+a=10 ,
+	// hence resulting into an lvalue error.
+	*/
 }
