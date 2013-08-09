@@ -27,7 +27,7 @@
 *	i.e., the order in which the two strings will appear in the dictionary.
 *
 *	e.g., str1="abc" and str2="abd"; then str1<str2; notice the last d in str2;
-*		str1="abc" and str2="abcd"; then also str1>str2; because of the length even if the first 3 chars are same for both.
+*		str1="abc" and str2="abcd"; then also str1<str2; because of the length even if the first 3 chars are same for both.
 ********************************************************************************************************/
 
 #include<stdio.h>
