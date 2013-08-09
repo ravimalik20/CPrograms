@@ -6,10 +6,12 @@
 *	The pointer passed to the call of realloc should be the one obtained from a previous call of malloc,calloc or realloc.
 *
 *	(void *)realloc(pointer_to_memory,new_size);
-	
-	When realloc is used:
-		It does not initialise the new memory blocks added.
-		If realloc cannot expand the memory block, it returns a null pointer and data in previous memory block is unchanged.
+*	
+*	When realloc is used:
+*		It does not initialise the new memory blocks added.
+*		If realloc cannot expand the memory block, it returns a null pointer and data in previous memory block is unchanged.
+*		If we paas NULL pointer as a first argument to realloc, it behaves like malloc.
+*		If we paas 0 in second argument, i.e., as the size arg., it will free the block.
 ***********************************************************************************************************************************/
 
 #include<stdio.h>
