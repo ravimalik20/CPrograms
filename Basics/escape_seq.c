@@ -36,5 +36,12 @@ int main(void)
 	printf("Now printing charachters that are not presenton the keyboard:\n");
 	printf("\xaf\n");
 
+	/* We wished to print *aaaaaa on screen.
+	But if we give the value as, \x2aaaaaaa, then it will consider all the charachters as a hexadecimal value.
+	Thus we have to provide two seperate strings like,
+	"\x2a""aaaaaa", and C will concatenate these two strings.
+	*/	
+	printf("\x2a""aaaaaa");
+
 	return 0;
 }
