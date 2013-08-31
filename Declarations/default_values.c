@@ -11,8 +11,8 @@
 void fun();
 
 int main(void)
-{	static int a;
-	printf("%d\n",a);	// Can't explain why this is 0.
+{	int a;
+	printf("%d\n",a);	/* Can't explain why this is 0.*/
 
 	fun();
 
